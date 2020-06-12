@@ -5,7 +5,7 @@ A basic Contact saving App implemented with [**Flutter**](https://flutter.dev) a
 
 <p align="center">
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RegNex/Contact-Manager-App/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/developercirclesaccra/ContactManagerApp/graphs/commit-activity)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/RegNex/)
 [![ForTheBadge made-with-flutter](https://img.shields.io/badge/flutter-made%20with%20flutter-blue.svg)](https://flutter.dev)
 [![ForTheBadge ios-supported](https://img.shields.io/badge/IOS-IOS%20Supported-lightgrey.svg)](https://flutter.dev)
@@ -18,8 +18,8 @@ A basic Contact saving App implemented with [**Flutter**](https://flutter.dev) a
 <table style="width:100%" bgcolor="black">
 </br>
   <tr>
-    <td><img align="left" src="https://raw.githubusercontent.com/developercirclesaccra/Contact-Manager-App/master/screenshot/screenshot_1.png" width="200" height="400"/></td>
-    <td><img src="https://raw.githubusercontent.com/developercirclesaccra/Contact-Manager-App/master/screenshot/screenshot_2.png" width="200" height="400"/></td>
+    <td><img align="left" src="https://raw.githubusercontent.com/developercirclesaccra/ContactManagerApp/master/screenshot/screenshot_1.png" width="200" height="400"/></td>
+    <td><img src="https://raw.githubusercontent.com/developercirclesaccra/ContactManagerApp/master/screenshot/screenshot_2.png" width="200" height="400"/></td>
 
   </tr>
   <tr>
@@ -43,7 +43,7 @@ cd folder/to/clone-into/
 ```
 
 ```
-git clone https://github.com/developercirclesaccra/Contact-Manager-App.git
+git clone https://github.com/developercirclesaccra/ContactManagerApp.git
 ```
 
 Then
