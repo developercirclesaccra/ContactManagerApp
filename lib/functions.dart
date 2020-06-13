@@ -108,3 +108,7 @@ Future<bool> saveNewContact(
   }
   return isSuccess;
 }
+
+signOut() async{
+  await _firebaseAuth.signOut();
+}
