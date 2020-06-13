@@ -11,6 +11,7 @@ ThemeData lightTheme(context) {
       errorColor: Colors.red,
       platform: defaultTargetPlatform,
       primaryColor: Colors.blue,
+    buttonColor: Colors.blue,
       floatingActionButtonTheme:
           FloatingActionButtonThemeData(backgroundColor: Colors.blue),
       brightness: Brightness.light,
@@ -69,20 +70,21 @@ ThemeData lightTheme(context) {
 //dark theme
 ThemeData darkTheme(context) {
   return ThemeData(
-      scaffoldBackgroundColor: Colors.black87,
+      scaffoldBackgroundColor: Colors.black,
       visualDensity: VisualDensity.adaptivePlatformDensity,
       cursorColor: Colors.blue,
       errorColor: Colors.red,
       platform: defaultTargetPlatform,
       primaryColor: Colors.blue,
       floatingActionButtonTheme:
-          FloatingActionButtonThemeData(backgroundColor: Colors.blue),
+          FloatingActionButtonThemeData(backgroundColor: Color(0xFF121212)),
       brightness: Brightness.dark,
       disabledColor: Colors.grey,
       iconTheme: IconThemeData(color: Colors.white70),
+      buttonColor: Color(0xFF121212),
       appBarTheme: AppBarTheme(
           elevation: Platform.isIOS ? 0 : 4,
-          color: Colors.blue,
+          color: Color(0xFF121212),
           brightness: Brightness.dark,
           iconTheme: IconThemeData(color: Colors.white)),
       textTheme: Typography.material2018(platform: defaultTargetPlatform)
@@ -113,7 +115,7 @@ ThemeData darkTheme(context) {
           borderSide: BorderSide(color: Colors.blue),
           borderRadius: BorderRadius.all(Radius.circular(5))),
       enabledBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.blue),
+          borderSide: BorderSide(color: Color(0xFF121212)),
           borderRadius: BorderRadius.all(Radius.circular(5))),
       disabledBorder: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.grey),
