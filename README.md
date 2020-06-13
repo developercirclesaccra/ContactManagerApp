@@ -106,5 +106,5 @@ What things you need to run the app
 
 **Etornam Sunu Bright**
 
-- [**Twitter**](https://twitter.com/_regnex)
+- [**Twitter**](https://twitter.com/_iamEtornam)
 - [**Linkedin**](https://linkedin.com/in/etornam-sunu)
