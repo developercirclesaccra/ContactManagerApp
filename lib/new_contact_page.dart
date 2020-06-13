@@ -69,7 +69,7 @@ class _NewContactPageState extends State<NewContactPage> {
                         _image = image;
                       });
                     },
-                    child: Icon(Icons.camera_alt),
+                    child: Icon(Icons.camera_alt,color: Colors.white70,),
                   ),
                 )
               ],
@@ -257,19 +257,26 @@ class _NewContactPageState extends State<NewContactPage> {
             ),
           ),
           SizedBox(height: 20),
-          FlatButton(
+          _isLoading
+              ? CircularProgressIndicator()
+              : FlatButton(
             onPressed: () async {
               if (!_formKey.currentState.validate()) {
                 //error
                 print('invalid');
               } else {
-                //valid
+                setState(() {
+                  _isLoading = true;
+                });
                 bool isSuccess = await saveNewContact(
                     firstName: _firstNameEditTextController.text,
                     lastName: _lastNameEditTextController.text,
                     phoneNumber: _phoneNumberEditTextController.text,
                     address: _addressEditTextController.text,
                     profilePic: _image);
+                setState(() {
+                  _isLoading = false;
+                });
                 if (isSuccess) {
                   Navigator.pushAndRemoveUntil(
                       context,
@@ -287,7 +294,7 @@ class _NewContactPageState extends State<NewContactPage> {
                   .button
                   .copyWith(color: Colors.white),
             ),
-            color: Colors.blue,
+            color: Theme.of(context).buttonColor,
           )
         ],
       ),
